@@ -1,7 +1,8 @@
-public abstract class Transport {
+public abstract class Transport implements Serviceable {
 
     private final  String modelName;
    private final int wheelsCount;
+
 
     public Transport(String modelName, int wheelsCount) {
         this.modelName = modelName;
